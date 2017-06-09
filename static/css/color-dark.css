@@ -19,15 +19,15 @@ th { background: #1D1F21; }
 .post .content h4{ color: #139696; }
 .post .content h5{ color: #139696; }
 .post .content h6{ color: #139696; }
-.post .content a:hover { color: #139696; }
-.social-link:hover { color: #139696; }
-.nav-item-title:hover { color: #139696; }
-.tag a:hover { color: #139696; }
+.post .content a:hover { color: #fbb220; }
+.social-link:hover { color: #fbb220; }
+.nav-item-title:hover { color: #fbb220; }
+.tag a:hover { color: #fbb220; }
 .copyright { color: #404040; }
 .poweredby { color: #404040; }
 .poweredby a { color: #404040; }
 .post-preview .title a{ color: #139696; }
-.content-item a:hover{ text-decoration: underline; color: #139696; }
+.content-item a:hover{ text-decoration: underline; color: #fbb220; }
 .post-list .title { color: #139696; }
-.rmore a { color: #139696; }
-.terms .term a:hover { text-decoration: underline; color: #139696; }
+.rmore a { color: #fbb220; }
+.terms .term a:hover { text-decoration: underline; color: #fbb220; }
