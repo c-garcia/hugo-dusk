@@ -423,7 +423,7 @@ th, td {
     width: 50%;
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 768px) {
 
   nav {
     flex-flow: row wrap;
@@ -463,3 +463,23 @@ th, td {
   }
 }
 
+/* by cg: intro images are not shown on small screens */
+
+@media screen and (max-width: 400px){
+    .intro-image {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .intro-image {
+    }
+}
+
+@media screen and (min-width: 768px){
+    .intro-image {
+        float: right;
+        margin-left: 1em;
+        padding: 1em;
+    }
+}
